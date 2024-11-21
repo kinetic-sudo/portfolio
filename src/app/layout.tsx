@@ -18,6 +18,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Pratyush's Portfolio",
   description: "Modern minimalistic portfolio",
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({
