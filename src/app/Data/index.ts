@@ -80,11 +80,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "WizardZ - A Dynamic Landing Page ",
+      des: "A dynamic landing page crafted using React and GSAP (GreenSock Animation Platform), designed to deliver an engaging and interactive user experience. The website leverages smooth, professional animations to create an immersive first impression, utilizing GSAP's powerful animation capabilities to bring static elements to life with fluid transitions and eye-catching motion effects. The responsive design ensures a seamless viewing experience across different devices, showcasing modern web development techniques with a clean, contemporary aesthetic.",
+      img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://wizardz-production.up.railway.app/",
     },
     {
       id: 3,
