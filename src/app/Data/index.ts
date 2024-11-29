@@ -102,6 +102,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://apple-website-one-beta.vercel.app/",
     },
+    {
+      id: 5,
+      title: "Kinetic The Gaming Website",
+      des: "Recreated the Zentry Gaming the award of the year site with various complex animation",
+      img: "/p5.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://kinetic-gamma.vercel.app/",
+    },
   ];
   
   export const testimonials = [
