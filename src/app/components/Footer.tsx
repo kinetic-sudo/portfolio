@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { IconLocation } from "@tabler/icons-react";
 
 import { socialMedia } from "@/src/app/Data";
