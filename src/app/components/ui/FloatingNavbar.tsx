@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   motion,
   AnimatePresence,
@@ -26,6 +26,8 @@ type FloatingNavProps = {
  */
 const FloatingNav: React.FC<FloatingNavProps> = ({ navItems, className }) => {
   const { scrollYProgress } = useScroll();
+  const [mounted, setMounted] = useState(false)
+
   const [visible, setVisible] = useState(false);
 
   useMotionValueEvent(scrollYProgress, 'change', (current) => {
@@ -41,6 +43,14 @@ const FloatingNav: React.FC<FloatingNavProps> = ({ navItems, className }) => {
       }
     }
   });
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
 
   return (
     <AnimatePresence>
