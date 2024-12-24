@@ -1,4 +1,5 @@
-
+'use client'
+import React from "react";
 import MagicBorder from "./ui/MagicBorder";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
