@@ -9,7 +9,24 @@ import {
 import { cn } from "@/src/lib/utils";
 import Link from "next/link";
 
-export const FloatingNav = ({
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * A floating navigation bar that shows up when the user scrolls down
+ * and hides when the user scrolls up. It is fixed to the top of the screen
+ * and has a rounded rectangle shape with a shadow.
+ *
+ * @param {{
+ *   navItems: {
+ *     name: string;
+ *     link: string;
+ *     icon?: JSX.Element;
+ *   }[];
+ *   className?: string;
+ * }} props
+ * @returns {JSX.Element}
+ */
+/******  e3cc09be-f0b4-45d8-a19a-9d3a98c80a60  *******/
+ const FloatingNav = ({
   navItems,
   className,
 }: {
@@ -76,3 +93,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+export default FloatingNav

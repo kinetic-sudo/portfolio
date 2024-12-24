@@ -11,7 +11,7 @@ import Approch from './components/Approch'
 import Footer from './components/Footer'
 import dynamic from 'next/dynamic';
 
-const FloatingNav = dynamic(() => import('./components/ui/FloatingNavbar') as unknown as Promise<ComponentType<any>>, { ssr: false });
+const FloatingNav = dynamic(() => import('./components/ui/FloatingNavbar'), { ssr: false });
 
 const page = () => {
   return (
