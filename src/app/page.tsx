@@ -1,5 +1,6 @@
 'use client'
-import React from 'react'
+
+import React, { ComponentType } from 'react'
 import Hero from './components/Hero'
 import  Grid from './components/Grid'
 import RecentProject from './components/RecentProject'
@@ -8,7 +9,9 @@ import Clients from './components/Clients'
 import Experience from './components/Experience'
 import Approch from './components/Approch'
 import Footer from './components/Footer'
-import { FloatingNav } from './components/ui/FloatingNavbar'
+import dynamic from 'next/dynamic';
+
+const FloatingNav = dynamic(() => import('./components/ui/FloatingNavbar') as unknown as Promise<ComponentType<any>>, { ssr: false });
 
 const page = () => {
   return (
