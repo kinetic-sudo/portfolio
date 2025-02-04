@@ -92,7 +92,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://brainwave-flame-seven.vercel.app/",
+      link: "https://brainwave-sage-theta.vercel.app/",
     },
     {
       id: 4,
