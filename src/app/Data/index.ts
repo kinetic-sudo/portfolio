@@ -110,6 +110,13 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://kinetic-gamma.vercel.app/",
     },
+    {
+       id: 6,
+       title: 'Anime website',
+       des: 'A anime website where u can watch world wide anime with varieties it has all feature that one anime application that has to be in',
+       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+       link: "https://next-anime-main.onrender.com/",
+    },
   ];
   
   export const testimonials = [
