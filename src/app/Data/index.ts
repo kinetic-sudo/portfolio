@@ -182,29 +182,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full-Stack Developer",
+      desc: "I build fast, modern, and scalable web applications that help businesses grow. Let's work together to turn your ideas into powerful digital products.I've worked on dashboards, e-commerce platforms, AI-powered applications, and internal tools for real clients—delivering solutions that solve actual business problems.I focus on delivering real results, not just writing code.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - Kinetic Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Mobile & Backend Dev - Kinetic Tech",
+      desc: "Designed cross-platform mobile apps with React Native and built backend services using Node.js, Express, and MongoDB.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Freelance Full-Stack Project",
+      desc: "Led end-to-end development of a full-stack application, handling frontend (React), backend (Node.js/Express), database (MongoDB), and deployment.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Lead Full-Stack Developer",
+      desc: "Built and maintained full-stack applications using React, Node.js, Express, and MongoDB, focusing on scalability and performance and AI integrations.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
