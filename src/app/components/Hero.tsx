@@ -50,7 +50,7 @@ const Hero = () => {
            words="Transforming Conceps Into Seamless Users Experience"
            />
            <p className="text-center text-white md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, i&apos;m Pratyush a Next.js Developer Based in Crotia
+            Hi, I'm Pratyush—a Full-Stack Developer specializing in React, Node.js, Express, and MongoDB. I build fast, modern web applications that help businesses grow.
            </p>
            <a href="#about">
            <MagicBorder 
