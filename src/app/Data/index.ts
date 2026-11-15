@@ -70,30 +70,30 @@ export const navItems = [
   ];
   
   export const projects = [
-    {
-      id: 1,
-      title: "Scatch - A Premium Bag Ecommerce-Website",
-      des: "A premium bags e-commerce platform built with the MERN stack, featuring an advanced OTP authentication system, intuitive product filters, and a robust admin panel for merchandise sellers. The website offers a seamless shopping experience with a visually appealing interface, enabling easy product management and secure user interactions.Copy",
-      img: "/p1.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://scratch-production-aee5.up.railway.app/",
-    },
-    {
-      id: 2,
-      title: "WizardZ - A Dynamic Landing Page ",
-      des: "A dynamic landing page crafted using React and GSAP (GreenSock Animation Platform), designed to deliver an engaging and interactive user experience. The website leverages smooth, professional animations to create an immersive first impression, utilizing GSAP's powerful animation capabilities to bring static elements to life with fluid transitions and eye-catching motion effects. The responsive design ensures a seamless viewing experience across different devices, showcasing modern web development techniques with a clean, contemporary aesthetic.",
-      img: "/p2.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://wizardz-production.up.railway.app/",
-    },
-    {
-      id: 3,
-      title: "AI Chatting SaaS - Chatting Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://brainwave-sage-theta.vercel.app/",
-    },
+    // {
+    //   id: 1,
+    //   title: "Scatch - A Premium Bag Ecommerce-Website",
+    //   des: "A premium bags e-commerce platform built with the MERN stack, featuring an advanced OTP authentication system, intuitive product filters, and a robust admin panel for merchandise sellers. The website offers a seamless shopping experience with a visually appealing interface, enabling easy product management and secure user interactions.Copy",
+    //   img: "/p1.png",
+    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    //   link: "https://scratch-production-aee5.up.railway.app/",
+    // },
+    // {
+    //   id: 2,
+    //   title: "WizardZ - A Dynamic Landing Page ",
+    //   des: "A dynamic landing page crafted using React and GSAP (GreenSock Animation Platform), designed to deliver an engaging and interactive user experience. The website leverages smooth, professional animations to create an immersive first impression, utilizing GSAP's powerful animation capabilities to bring static elements to life with fluid transitions and eye-catching motion effects. The responsive design ensures a seamless viewing experience across different devices, showcasing modern web development techniques with a clean, contemporary aesthetic.",
+    //   img: "/p2.png",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    //   link: "https://wizardz-production.up.railway.app/",
+    // },
+    // {
+    //   id: 3,
+    //   title: "AI Chatting SaaS - Chatting Application",
+    //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    //   img: "/p3.png",
+    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    //   link: "https://brainwave-sage-theta.vercel.app/",
+    // },
     {
       id: 4,
       title: "Animated Apple Iphone 3D Website",
